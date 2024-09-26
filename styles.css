@@ -49,10 +49,13 @@
 
 #flex-section3 .tags ul {
   display: flex;
-  justify-content: space-around; 
+  flex-wrap: wrap; 
+  justify-content: center; 
   padding: 0;
   list-style-type: none;
+  gap: 10px; 
 }
+
 
 /* end Flexbox Part 3 */
 
